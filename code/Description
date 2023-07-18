@@ -11,4 +11,5 @@ RH4 1µM concentration data. User can use these models for their further analysi
 
 Code "clusterprofiler.r" was used for performing Gene Ontology study and file "gene_list" is used as an input file for this code.
 
-Lastly, code "boxplot.py" was used for analysing the H3K27ac marks distribution across 21 genomic bins. 
+Lastly, code "boxplot.py" was used for analysing the H3K27ac marks distribution across 21 genomic bins. H3K27ac_input.csv is used as an input 
+file for this code.
