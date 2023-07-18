@@ -7,3 +7,5 @@ Next, we developed machine learning model for predicting given the pre-treatment
 We observed that in two cell lines (HCT116 treated with Largazole at 8 doses and RH4 treated with Entinostat at 1µM) where the appropriate data (pre-treatment transcriptome and epigenome as well as post-treatment transcriptome) is publicly available, our model could distinguish the post-treatment up versus downregulated genes with high accuracy (up to ROC of 0.89). Furthermore, a model trained on one cell line is applicable to another cell line suggesting that such a model can be applied to a novel context. 
 
 Here we present a first assessment of the predictability of genome-wide transcriptomic changes upon treatment with HDACi. Lack of appropriate omics data from clinical trials of epigenetic drugs currently hampers the assessment of applicability of our approach to predicting the response to epigenetic drugs in cancer patients.
+
+All the codes used for processing the data and getting the H3K27Ac marks, developing Machine Learning model, predicting on independent dataset and for other analysis has been provided in the folder **"code"**
