@@ -8,8 +8,12 @@ across 21 genomic bins.
 Code "ML.py" was used for the machine learning process and the file "train.csv" and "test.csv" are used as input for this code.
 
 We have also provided the 2 prediction models named as "HCT116_model" and "RH4_model" developed using HCT116 75nM concerntartion data and
-RH4 1µM concentration data. User can use these models for their further analysis. The input file they will be needing is 21 feature 
-(10 promoter, 1 TSS and 10 gene body region) Histone marks file.
+RH4 1µM concentration data. Code named "Predict.py" has been provided to check the performance of these models on an independent dataset. 
+The indepepndent dataset input file should have 21 feature (10 promoter, 1 TSS and 10 gene body region) Histone marks file along with
+the label at the end. Usually the label is written as "0".
+
+User can use the code  for predicting and to check the performance of the models on their own data. The file to be predicted
+
 
 Code "clusterprofiler.r" was used for performing Gene Ontology study and file "gene_list" is used as an input file for this code.
 
