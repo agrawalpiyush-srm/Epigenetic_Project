@@ -1,11 +1,11 @@
 This directory has all the codes used in the current study. We have also provided the R object of the datasets here.
 
-Folder **"data_processing"** has all the codes which was used for processing the HCT116 and RH4 cell line data to get H3K27Ac mark distribution
+Folder "data_processing" has all the codes which was used for processing the HCT116 and RH4 cell line data to get H3K27Ac mark distribution
 across 21 genomic bins.
 
 Code "ML.py" was used for the machine learning process and the file "train.csv" and "test.csv" are used as input for this code.
 
-We have also provided the 2 prediction models named as **HCT116_model** and "RH4_model" developed using HCT116 75nM concerntartion data and
+We have also provided the 2 prediction models named as "HCT116_model" and "RH4_model" developed using HCT116 75nM concerntartion data and
 RH4 1µM concentration data. User can use these models for their further analysis. The input file they will be needing is 21 feature 
 (10 promoter, 1 TSS and 10 gene body region) Histone marks file.
 
